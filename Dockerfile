@@ -11,8 +11,8 @@ RUN mvn dependency:go-offline -q
 COPY src ./src
 RUN mvn clean package -DskipTests -q
 
-# Stage 2: Runtime với JRE (nhỏ hơn JDK)
-FROM eclipse-temurin:21-jre
+# Stage 2: Runtime với JRE Jammy (có đầy đủ SSL cho MongoDB Atlas)
+FROM eclipse-temurin:21-jre-jammy
 
 WORKDIR /app
 
