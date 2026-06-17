@@ -1,4 +1,5 @@
 com\petshop\dto\CreateOrderRequest.class
+com\petshop\service\AppointmentService.class
 com\petshop\controller\ProductController.class
 com\petshop\model\Order.class
 com\petshop\service\NewsletterService.class
@@ -18,9 +19,13 @@ com\petshop\exception\ApiExceptionHandler.class
 com\petshop\model\CartItem.class
 com\petshop\service\CartService.class
 com\petshop\config\CorsConfig.class
+com\petshop\model\Appointment.class
 com\petshop\exception\NotFoundException.class
+com\petshop\repository\AppointmentRepository.class
 com\petshop\service\ProductService.class
 com\petshop\controller\HealthController.class
 com\petshop\model\Cart.class
+com\petshop\controller\AdminController.class
 com\petshop\repository\ProductRepository.class
+com\petshop\controller\AppointmentController.class
 com\petshop\model\Product.class
